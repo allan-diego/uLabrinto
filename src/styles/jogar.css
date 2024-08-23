@@ -1,0 +1,31 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+td.celula {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+td.personagem {
+    background-color: rgb(211, 211, 211);
+    cursor: pointer;
+}
+
+td.objetivo {
+    background-color: purple;
+    color: white;
+}
+
+td.bloco {
+    background-color: black;
+    color: white;
+}
